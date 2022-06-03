@@ -1,0 +1,26 @@
+﻿@page "/viewer"
+
+@using DevExpress.Blazor.Reporting
+@using DevExpress.XtraReports.UI;
+
+@using DxBlazorApplication1.Data
+@inject WeatherForecastService ForecastService
+
+<h3>Viewer</h3>
+<link rel="stylesheet" href="_content/DevExpress.Blazor.Reporting.Viewer/css/dx-blazor-reporting-components.bs5.css">
+
+<DxReportViewer @ref="reportViewer" Report="@Report">
+</DxReportViewer>
+
+@code {
+    DxReportViewer? reportViewer { get; set; }
+    XtraReport? Report { get; set; }
+    private WeatherForecast[]? forecasts;
+
+
+    protected override async Task OnInitializedAsync() {
+        WeatherForecast[] forecasts = await ForecastService.GetForecastAsync(DateTime.Now);
+        Report = new Reports.TestReport();
+        Report.DataSource = forecasts;
+    }
+}
