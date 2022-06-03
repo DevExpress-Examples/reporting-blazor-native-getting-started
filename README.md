@@ -1,3 +1,7 @@
+<!-- default badges list -->
+![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/499657364/2022.1)
+[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
+<!-- default badges end -->
 # Report Viewer for Blazor (native) - Getting Started
 
 This example is created by following instructions of the [Create Blazor Report Viewer Application from DevExpress Template](https://docs.devexpress.com/XtraReports/403069) tutorial. 
