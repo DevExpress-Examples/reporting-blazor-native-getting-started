@@ -18,7 +18,6 @@ builder.WebHost.UseWebRoot("wwwroot");
 builder.WebHost.UseStaticWebAssets();
 
 var app = builder.Build();
-app.UseDevExpressServerSideBlazorReportViewer();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
