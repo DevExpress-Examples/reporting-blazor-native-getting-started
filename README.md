@@ -4,7 +4,7 @@
 <!-- default badges end -->
 # Report Viewer for Blazor (native) - Getting Started
 
-This example is created by following instructions of the [Create Blazor Report Viewer Application from DevExpress Template](https://docs.devexpress.com/XtraReports/403069) tutorial. 
+This example is created by following instructions of the [Create Blazor Report Viewer Application from DevExpress Template](https://docs.devexpress.com/XtraReports/404159) tutorial. 
 
 ## Files to Look At
 
