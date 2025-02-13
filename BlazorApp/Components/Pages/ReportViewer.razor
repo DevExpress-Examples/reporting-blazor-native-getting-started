@@ -1,0 +1,18 @@
+﻿@page "/Viewer"
+@rendermode InteractiveServer
+
+@using BlazorApp.Reports
+@using DevExpress.Blazor.Reporting
+@using DevExpress.XtraReports.UI
+
+<h3>Report Viewer</h3>
+<link href="_content/DevExpress.Blazor.Themes/blazing-berry.bs5.css" rel="stylesheet" />
+<link rel="stylesheet" href="_content/DevExpress.Blazor.Reporting.Viewer/css/dx-blazor-reporting-components.bs5.css">
+
+<DxReportViewer @ref="reportViewer" Report="@Report">
+</DxReportViewer>
+
+@code {
+    DxReportViewer? reportViewer;
+    TestReport Report = new TestReport();
+}

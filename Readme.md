@@ -6,12 +6,12 @@
 <!-- default badges end -->
 # Report Viewer for Blazor (native) - Getting Started
 
-This example is created by following instructions of the [Use Visual Studio Project Templates to Create a Blazor Reporting Application](https://docs.devexpress.com/XtraReports/404159) tutorial. 
+This example is created by following instructions of the [Add a Report Viewer to a Project (Blazor Server Application Created with a Visual Studio Template)](https://docs.devexpress.com/XtraReports/403912/web-reporting/blazor-reporting/server/report-viewer-native/integration/use-microsoft-template-net-6) tutorial. 
 
 ## Files to Look At
 
-- [Program.cs](DxBlazorApplication1/Program.cs) 
-- [Viewer.razor](DxBlazorApplication1/Pages/Viewer.razor)
+- [Program.cs](BlazorApp/Program.cs) 
+- [ReportViewer.razor](BlazorApp/Components/Pages/ReportViewer.razor)
 
 
 ## More Examples
