@@ -20,7 +20,7 @@ This example is created by following instructions of the [Add a Report Viewer to
 - [Report Viewer for Blazor - Custom Export](https://github.com/DevExpress-Examples/Reporting-Blazor-Report-Viewer-Custom-Export)
 - [Specify Parameter Values in a Blazor Report Viewer (Native) Application](https://github.com/DevExpress-Examples/Reporting-Blazor-Native-Viewer-Specify-Parameters)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-blazor-native-getting-started&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-blazor-native-getting-started&~~~was_helpful=no)
 
